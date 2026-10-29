@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "adapter": {
+    "vendor": "apple",
+    "architecture": "metal-3",
+    "device": "",
+    "description": "",
+    "isFallbackAdapter": false
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "pipelineMs": 400.80000000074506,
+  "samples": [
+    {
+      "n": 1,
+      "mismatches": 0,
+      "cpuMs": 0.19999999925494194,
+      "endToEndMs": 7.5,
+      "uploadedBytes": 4,
+      "downloadedBytes": 4
+    },
+    {
+      "n": 65,
+      "mismatches": 0,
+      "cpuMs": 0.40000000037252903,
+      "endToEndMs": 0.5,
+      "uploadedBytes": 260,
+      "downloadedBytes": 260
+    },
+    {
+      "n": 4096,
+      "mismatches": 0,
+      "cpuMs": 0.7000000011175871,
+      "endToEndMs": 0.599999999627471,
+      "uploadedBytes": 16384,
+      "downloadedBytes": 16384
+    },
+    {
+      "n": 65536,
+      "mismatches": 0,
+      "cpuMs": 2.299999998882413,
+      "endToEndMs": 1.200000001117587,
+      "uploadedBytes": 262144,
+      "downloadedBytes": 262144
+    }
+  ],
+  "timing": "One cold sample per size. End-to-end includes buffer creation, upload, dispatch, readback and JS copy; excludes pipeline compilation and CPU oracle. Kernel-only time not measured."
+}
